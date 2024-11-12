@@ -45,11 +45,14 @@ main {
   height: inherit;
 }
 .content {
-  margin-top: 24px;
+  margin-top: 26px;
   margin-bottom: 24px;
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+.tag {
+  margin-bottom: 4px;
 }
 .tag span {
   background-color: var(--yellow);
@@ -79,6 +82,21 @@ p {
   font-weight: 500;
   line-height: 150%;
   color: var(--gray-500);
+}
+.author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.author img {
+  height: 32px;
+  width: 32px;
+}
+.author span {
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 150%;
+  color: var(--gray-950);
 }
 .attribution {
   font-size: 11px;
