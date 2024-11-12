@@ -24,6 +24,7 @@ main {
   padding-left: 24px;
 }
 .card {
+  position: relative;
   background-color: var(--white);
   border-radius: 20px;
   height: 501px;
@@ -104,8 +105,10 @@ p {
   color: var(--gray-950);
 }
 .attribution {
+  position: absolute;
   font-size: 11px;
   text-align: center;
+  bottom: -40px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -128,5 +131,8 @@ p {
   }
   .tag span {
     padding-right: 13px;
+  }
+  .attribution {
+    left: 48px;
   }
 }
