@@ -76,6 +76,10 @@ h1 {
   color: var(--gray-950);
   margin: 0;
 }
+h1:hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
 p {
   margin: 0;
   font-size: 14px;
