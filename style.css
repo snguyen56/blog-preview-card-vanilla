@@ -109,3 +109,33 @@ p {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+@media screen and (min-width: 768px) {
+  main {
+    display: grid;
+    place-items: center;
+    padding: 0;
+  }
+  .card {
+    width: 384px;
+    height: 522px;
+  }
+  .thumbnail {
+    width: 100%;
+  }
+  .tag {
+    margin-top: 2px;
+  }
+  .tag span {
+    padding-right: 13px;
+  }
+  .content span,
+  .date {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
