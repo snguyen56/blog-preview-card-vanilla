@@ -32,14 +32,17 @@ main {
   border: 1px solid var(--gray-950);
   box-shadow: 8px 8px var(--gray-950);
 }
-.img-container {
+.thumbnail {
   width: 279px;
   height: 200px;
   border-radius: 10px;
   overflow: hidden;
+  object-position: 0% 50%;
 }
-.img-container img {
-  object-fit: fill;
+.thumbnail img {
+  object-fit: cover;
+  width: inherit;
+  height: inherit;
 }
 .attribution {
   font-size: 11px;
